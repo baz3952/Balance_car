@@ -1,11 +1,8 @@
 #ifndef __ENCODER_H
 #define __ENCODER_H
 #include <sys.h>	 
-/**************************************************************************
-×÷    Õß£º´óÓãµç×Ó
-ÌÔ±¦µØÖ·£ºhttps://shop119207236.taobao.com
-**************************************************************************/
-#define ENCODER_TIM_PERIOD (u16)(65535)   //103µÄ¶¨Ê±Æ÷ÊÇ16Î» 2µÄ16´Î·½×î´óÊÇ65536
+
+#define ENCODER_TIM_PERIOD (u16)(65535)   //103çš„å®šæ—¶å™¨æ˜¯16ä½ 2çš„16æ¬¡æ–¹æœ€å¤§æ˜¯65536
 void Encoder_Init_TIM2(void);
 void Encoder_Init_TIM3(void);
 int Read_Encoder(u8 TIMX);
